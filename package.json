@@ -1,0 +1,14 @@
+{
+  "name": "project-bluebox",
+  "version": "1.0.0",
+  "description": "Project BlueBox",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Adamant001100",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
