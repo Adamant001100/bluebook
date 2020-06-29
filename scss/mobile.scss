@@ -23,7 +23,16 @@
         }
     }
 
-    
+    .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job3'
+        'job3';
+
+        grid-template-columns: 1fr;
+    }
 }
 
 

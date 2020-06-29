@@ -11,8 +11,8 @@ nav{
 	position: absolute;
 	background: #000;
 	color: #fff;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 	top: -50px;
 	left: -50px;
 	z-index: 2;
@@ -62,7 +62,7 @@ nav> ul > li > a {
 	transform: translate(-50%,-50%);
 	width: 100%;
 	height: 6px;
-	background: tomato;
+	background: #4898F6;
 	z-index: 99;
 	display: block;
 	border-radius: 2px;
@@ -77,7 +77,7 @@ nav> ul > li > a {
 	width: 100%;
 	height: 100%;
 	display: block;
-	background: tomato;
+	background: #4898F6;
 	z-index: 99;
 	border-radius: 2px;
 	box-shadow: 0px 0px 7px rgba(0,0,0, 0.5);
@@ -92,7 +92,7 @@ nav> ul > li > a {
 	width: 100%;
 	height: 100%;
 	display: block;
-	background: tomato;
+	background: #4898F6;
 	z-index: 99;
 	border-radius: 2px;
 	box-shadow: 0px 0px 7px rgba(0,0,0, 0.5);
