@@ -16,7 +16,7 @@ nav {
   left: -50px;
   z-index: 2;
   border-bottom-right-radius: 50%;
-  transition: .5s; }
+  transition: .3s; }
 
 nav > ul {
   text-align: center;
@@ -142,6 +142,37 @@ nav > ul > li > a {
   color: #fff;
   flex: 0 0 auto; }
 
+.fsec {
+  perspective: 1000px; }
+
+.cont {
+  width: 680px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  flex-wrap: wrap;
+  transition: .8s;
+  transform-style: preserve-3d;
+  transform: rotateX(35deg) rotateZ(-45deg) rotateY(10deg); }
+
+.cont-or {
+  transform: rotate(0); }
+
+img {
+  max-width: 100%;
+  border: #001263 3px solid; }
+
+.cards {
+  width: 200px;
+  margin: 10px;
+  transition: 0.3s; }
+
+.cards:hover {
+  cursor: pointer;
+  transform: translateZ(20px); }
+
 * {
   box-sizing: border-box; }
 
@@ -153,7 +184,7 @@ nav > ul > li > a {
   pointer-events: all; }
 
 body {
-  background: #4898F6;
+  background: #3d49ab;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -172,7 +203,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(72, 152, 246, 0.3); }
+      background: rgba(61, 73, 171, 0.3); }
 
 h1, h2,
 h3 {
@@ -185,7 +216,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem;
-    background: rgba(82, 157, 246, 0.5); }
+    background: rgba(64, 76, 179, 0.5); }
 
 a {
   text-decoration: none; }
@@ -236,7 +267,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #60a6f7;
+    background: #4552bd;
     padding: 0.5rem;
     border-bottom: #001263 5px solid; }
 
