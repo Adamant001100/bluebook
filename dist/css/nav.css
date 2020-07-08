@@ -59,7 +59,7 @@ nav > ul > li > a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: 6px;
+  height: 7px;
   background: #4898F6;
   z-index: 99;
   display: block;

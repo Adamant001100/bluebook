@@ -1,10 +1,8 @@
 $primary-color: #3d49ab;
-$secondary-color: #001263;
+//$secondary-color: #001263;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+$home-image: url(../img/ava2.jpg);
 $background-opacity: 0.3;
-
-
 
 
 @mixin easeOut {
@@ -43,10 +41,7 @@ $background-opacity: 0.3;
 }
 
 
-
-
 //Media Query Mixins
-
 @mixin mediaSm {
     @media screen and (max-width: 500px) {
         @content;

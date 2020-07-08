@@ -3,93 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha256-+u54FaX9J+k40eAcg5K2YzICSQjrEYBI9gju5nE3HfY=" crossorigin="anonymous"></script>
-    
-    <title>Welcome to BlueBox</title>
+
+    <title>BlueBox</title>
 </head>
 
 <body id="bg-img">
 
     <div id="particles-js"></div>
-
-    <div id="parallax"></div>
-    
-
-    <div class="burger">
-        <span></span>
+    <div id="bgSong">
+        <audio src="../bgsound.mp3" autoplay></audio>
     </div>
 
-
+    <!--------------------------Menu navigation------------------------------>
+    <div class="burger">
+        <span class="menu"></span>
+    </div>
 		<nav>
 			<ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="ourstack.html">Our Stack</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/">Главная</a></li>
+                <li><a href="about.html">О Нас</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><a href="gallery.html">Галлерея</a></li>
+                <li><a href="ourstack.html">Наш стэк технологии</a></li>
+                <li><a href="contact.html">Свяжитесь с нами</a></li>
             </ul>
-		</nav>
-	
-
-     
-  
+        </nav>
+    <!--------------------------Menu navigation------------------------------>
+	    
+  <!---------------------------------------background-------------------------------------------------->
     <main id="home">
-        <h1 class="lg-heading">
-            <span class="text-secondary">BlueBox</span> будущее здесь 2020
-        </h1>
-
-        <h2 class="sm-heading">
-            Web Developer, Data-Science, AI, Programmer
-        </h2>
-
-        <div class="icons">
-            <a href="#!">
-                <i class="fab fa fa-whatsapp fa-2x"></i> <!-- uses brands style -->
-            </a>
-
-            <a href="#!">
-                <i class="fab fa fa-instagram fa-2x"></i> <!-- uses brands style -->
-            </a>
-
-            <a href="#!">
-                <i class="fab fa fa-github fa-2x"></i> <!-- uses brands style -->
-            </a>
-
-            <a href="#!">
-                <i class="fab fa fa-vk fa-2x"></i> <!-- uses brands style -->
-            </a>
-        </div>
+       
+        <div class="container">
+            <div class="row">
+            <center>
+              <h1>BlueBox</h1>
+              <h4 class="autotext">Веб-разработка, ИИ, Наука о данных, Нейронная сеть другой взгляд на технологии</h4>
+              
+            </center>
+            </div>
+          </div>
+       
     </main>
+<!---------------------------------------background----------------------------------------------------->
 
 
-    <div class="footer">
-        <h3>Copyright &copy BlueBox 2020</h3>
+    <!-----------------------------------footer content--------------------------->
+          <footer class="content__footer footer__icons " >
 
-    </div>
-
-
+            <p class="copyright__text">Copyright &copy BlueBox 2020</p>
+        <div class="icons">
+            <a href="https://wa.me/77083838219">
+                    <i class="fab fa fa-whatsapp fa-2x"></i> <!-- uses brands style -->
+                </a>
     
+                <a href="https://www.instagram.com/adamant001100/">
+                    <i class="fab fa fa-instagram fa-2x"></i> <!-- uses brands style -->
+                </a>
+       
+                <a href="https://vk.com/jamesussf">
+                    <i class="fab fa fa-vk fa-2x"></i> <!-- uses brands style -->
+                </a>
+            </div>
+        </footer>
+          
+ <!-----------------------------------footer content---------------------------->
 
-
-
-   
     <script src="js/nav.js"></script>
     <script src="js/main.js"></script>
     <script src="libs/particles/particles.js"></script>
+    <script src="js/split.js"></script>
     
-    
-    
-   
-  
-
-
-
-
     
 </body>
 </html>
