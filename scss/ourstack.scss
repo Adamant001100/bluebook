@@ -1,7 +1,7 @@
 // best in chrome
 $total: 500; // total particles
-$orb-size: 100px;
-$particle-size: 2px;
+$orb-size: 130px;
+$particle-size: 3px;
 $time: 20s; 
 $base-hue: 200; // Color
 
@@ -28,7 +28,7 @@ $base-hue: 200; // Color
   width: $particle-size;
   height: $particle-size;
   border-radius: 50%;
-  opacity: 0;
+  opacity: 0.5;
  
 }
 
