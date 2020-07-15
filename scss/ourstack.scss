@@ -5,7 +5,6 @@ $particle-size: 2px;
 $time: 10s; 
 $base-hue: 200; // Color
 
-
 .wrap {
   position: relative;
   top: 30%;
@@ -29,8 +28,7 @@ $base-hue: 200; // Color
   height: $particle-size;
   border-radius: 50%;
   opacity: 0.9;
- 
-}
+ }
 
 @for $i from 1 through $total {
   $z: (random(360) * 1deg); // random angle to rotateZ
@@ -85,6 +83,7 @@ $base-hue: 200; // Color
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 5px 5px rgba(0,0,0,0.10);
 }
 
 .product-card:hover,
@@ -123,7 +122,6 @@ $base-hue: 200; // Color
   text-align: center;
 }
 
-
 /* color */
 .product-card:first-child h3 {
   color: #0097e6;
@@ -133,12 +131,9 @@ $base-hue: 200; // Color
   color: #0097e6;
 }
 
-
 .product-card:last-child h3 {
   color: #0097e6;
 }
-
-
 
 h3, p {
   margin: 0;
@@ -152,8 +147,18 @@ h3 {
 p {
   font-size: 1em;
   font-weight: 300;
-  
 }
+
+
+.ourstack__title{
+
+  color:#fff;
+  font-size:30px;
+  font-weight:100; 
+}
+
+
+
 
 
 

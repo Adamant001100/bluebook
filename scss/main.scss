@@ -38,6 +38,12 @@ body {
     display: flex;
 }
 
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
 //Header
 h1, h2  {
     margin: 0;
