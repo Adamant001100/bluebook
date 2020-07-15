@@ -28,19 +28,19 @@ $base-hue: 200; // Color
   width: $particle-size;
   height: $particle-size;
   border-radius: 50%;
-  opacity: 0.5;
+  opacity: 0.9;
  
 }
 
 @for $i from 1 through $total {
   $z: (random(360) * 1deg); // random angle to rotateZ
   $y: (random(360) * 1deg); // random to rotateX
-  $hue: ((40/$total * $i) + $base-hue); // set hue
+  $hue: ((10/$total * $i) + $base-hue); // set hue
   
   .c:nth-child(#{$i}){ // grab the nth particle
     animation: orbit#{$i} $time infinite;
     animation-delay: ($i * .01s); 
-    background-color: hsla($hue, 100%, 50%, 1);
+    background-color: hsla($hue, 100%, 100%, 1);
   }
 
   @keyframes orbit#{$i}{ 
@@ -50,7 +50,7 @@ $base-hue: 200; // Color
     30% {
       transform: rotateZ(-$z) rotateY($y) translateX($orb-size) rotateZ($z); // form orb
     }
-    80% {
+    70% {
       transform: rotateZ(-$z) rotateY($y) translateX($orb-size) rotateZ($z); // hold orb state 30-80
       opacity: 1; // hold opacity 20-80
     }
@@ -61,7 +61,7 @@ $base-hue: 200; // Color
 }
 
 
-//Ourstack========================================
+//Ourstack=====================================================
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -81,7 +81,7 @@ $base-hue: 200; // Color
   color: #2f3640;
   margin: 0 2em;
   transition: all linear .2s;
-  width: 250px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,15 +100,15 @@ $base-hue: 200; // Color
 }
 
 .img-one {
-  background-image: url('../img/desk.jpg');
+  background-image: url('../img/ava.jpg');
 }
 
 .img-two {
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/desk.jpg');
 }
 
 .img-three {
-  background-image: url('../img/ava.jpg');
+  background-image: url('../img/code.jpg');
 }
 
 .img-one,
@@ -126,42 +126,33 @@ $base-hue: 200; // Color
 
 /* color */
 .product-card:first-child h3 {
-  color: #e84118;
-}
-
-.product-card:first-child button {
-  background-color: #e84118;
+  color: #0097e6;
 }
 
 .product-card:nth-child(2) h3 {
-  color: #fbc531;
+  color: #0097e6;
 }
 
-.product-card:nth-child(2) button {
-  background-color: #fbc531;
-}
 
 .product-card:last-child h3 {
   color: #0097e6;
 }
 
-.product-card:last-child button {
-  background-color: #0097e6;
-}
 
 
 h3, p {
   margin: 0;
-  padding-bottom: .6em;
+  padding-bottom: .5em;
 }
 
 h3 {
-  font-size: 1.7em;
+  font-size: 1.9em;
 }
 
 p {
   font-size: 1em;
   font-weight: 300;
+  
 }
 
 
