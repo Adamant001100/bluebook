@@ -1,6 +1,8 @@
-var typed = new Typed("#typed", {
-	stringsElement: "#typed-strings",
-	typeSpeed: 20,
-	backSpeed: 30,
-	loop: true
+$(document).ready(function() {
+    var $audioElement = $("<audio>");
+    $audioElement.attr({
+        'src': 'http://picosong.com/media/songs/a53ac958428e20721ab0b5b2e3cf16c1.mp3',
+        'autoplay':'autoplay',
+        'loop':'loop'
+    });
 });

@@ -92,8 +92,28 @@ main {
 }
 
 //==================Main text====================//@extend
+.main__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.main__content h1 {
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 16px;
+}
 
+.main__text__p  {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+//==================Main text====================//@extend
 
 
 

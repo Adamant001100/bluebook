@@ -1,7 +1,7 @@
 $primary-color:#161c47; // #3d49ab;
 //$secondary-color: #001263;
 $show-home-image: true;
-$home-image: url(../img/ava2.jpg);
+$home-image: url(../img/ava.jpg);
 $background-opacity: 0.3;
 
 
@@ -15,6 +15,9 @@ $background-opacity: 0.3;
             background: $home-image;
             background-attachment: fixed;
             background-size: cover;
+            background-repeat: no-repeat;
+            animation: slide 10s infinite;
+            
           
           &:after   {
                 content: '';
@@ -30,6 +33,26 @@ $background-opacity: 0.3;
         
     }
 }
+
+@keyframes slide {
+    0% {
+        background-image: url('../img/ava2.jpg');
+    }
+
+    33% {
+        background-image: url('../img/background.jpg');
+    }
+
+    67% {
+        background-image: url('../img/desk.jpg');
+    }
+}
+
+
+
+
+
+
 
 //Set Text Color
 @function set-text-color($color) {
