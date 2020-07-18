@@ -94,7 +94,7 @@ main {
 //==================Main text====================//@extend
 .main__content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -102,15 +102,15 @@ main {
 }
 
 .main__content h1 {
-    color: blue;
-    font-size: 60px;
+    color: rgb(2, 2, 255);
+    font-size: 80px;
     letter-spacing: 16px;
 }
 
 .main__text__p  {
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 //==================Main text====================//@extend
