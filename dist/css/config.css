@@ -1,7 +1,0 @@
-@keyframes slide {
-  0% {
-    background-image: url("../img/ava2.jpg"); }
-  50% {
-    background-image: url("../img/background.jpg"); }
-  80% {
-    background-image: url("../img/desk.jpg"); } }

@@ -11,15 +11,11 @@
     
     <title>Контакты</title>
 </head>
-
 <body>
 
-    
     <div class="burger">
         <span></span>
     </div>
-
-
 		<nav>
 			<ul>
                 <li><a href="/">Главная</a></li>
@@ -30,37 +26,38 @@
                 <li><a href="contact.html">Свяжитесь с нами</a></li>
             </ul>
         </nav>
+       
         
 
         <!--Contact form-->
 
-        <div class="wrapper">
-
-            <form action="#" method="post">
-              <div class="field">
-                <input type="text" id="name" name="name" placeholder="Пожалуйста введите ваше имя" autofocus/>
-                <label for="name">Имя</label>
-              </div>
-              <div class="field">
-                <input type="text" id="phone" name="phone" placeholder="Пожалуйста введите ваш номер телефона" />
-                <label for="email">Номер телефона</label>
-              </div>
+        <div class="form animated flipInX">
+          <h2>Заполните форму и наш менеджер свяжиться с Вами</h2>
+          <form action="contact-form.php" method="POST">
+            <input placeholder="Имя" type="text"></input>
+            <input placeholder="Номер телефона" type="text"></input>
+            <input placeholder="E-mail" type="text"></input>
+            <button>Заказать консультацию</button>
+            <br>
+            <br>
+            <span class="terms__span">* - обязательное поле
+              Нажимая на кнопку “Заказать консультацию”,
+              я соглашаюсь с 
+          </span> 
            
-               <div class="field">
-                <input type="text" id="email" name="email" placeholder="Пожалуйста введите ваш E-mail адрес" />
-                <label for="email">E-mail</label>
-              </div>
-              
-              <input class="button" type="submit" value="ОТПРАВИТЬ" />
-            </form>
+              <a class="terms" target="_blank" "="" href="./docs/terms_of_use_gxb.pdf">политикой конфиденциальности</a>
+           
+          </form>
           
-          </div>
+        </div>
+        
+
     
              <!--Contact form-->
 
-     
 
 
+    
 
     <script src="js/nav.js"></script>
     
